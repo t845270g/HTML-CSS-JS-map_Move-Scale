@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.box {
+  border: 2px solid red;
+  width: 50rem;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.img {
+  transform-origin: 0px 0px;
+  position: absolute;
+}
+.img:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.img:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}/*# sourceMappingURL=style.css.map */
